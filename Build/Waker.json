@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Waker.data.unityweb",
+"asmCodeUrl": "Waker.asm.code.unityweb",
+"asmMemoryUrl": "Waker.asm.memory.unityweb",
+"asmFrameworkUrl": "Waker.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}
