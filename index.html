@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
   <head>
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Waker</title>
+
+    <title>Waker | CGA Jam Version</title>
+
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Waker.json");
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WEBGL.json");
     </script>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
   </head>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+
   <body>
-    <div id="gameContainer" style="width: 400px; height: 667px;"></div>
+
+    <div class="row content-row">
+      <div class="col-md-6">
+        <div class="gameWindow"><div id="gameContainer" style="width: 400px; height: 667px; margin: auto"></div></div>
+      </div>
+
+      <div class="col-md-6">
+        <h1>WAKER</h1>
+        <p>Waker is a bullet hell game with distinct line-art graphics and procedurally generated levels.</p>
+        <p>This is the original game, made for CGA Jam in 14 days <i>(8th in Gameplay and 19th in Graphics)</i>.</p>
+        <p>The full game is in development and will contain:</p>
+        <ul>
+          <li>a wider variety of colors</li>
+          <li>improved graphics and font, easier on the eyes</li>
+          <li>persistent levels</li>
+          <li>more mechanics</li>
+          <li>major balancing changes</li>
+          <li>narrative</li>
+          <li>proper tutorials and accessibility</li>
+        </ul>
+        <iframe frameborder="0" src="https://itch.io/embed/151106?dark=true" width="552" height="167"></iframe>
+      </div>
+    </div>
+
+
+
   </body>
+
 </html>
